@@ -1,43 +1,43 @@
-# GlassCalc
+# Modern calculator - Glass style
 
-Una calculadora simple pero visualmente moderna, con interfaz *glassmorphism* y soporte para modo oscuro.
+A simple yet visually modern calculator with a *glassmorphism* interface and dark mode support, built with HTML, CSS, and JS.
 
-## 🌟 Características
+## 🌟 Features
 
-- Interfaz *glass UI* con efecto difuminado
-- Modo claro/oscuro con cambio animado
-- Adaptativa para móviles
-- Soporte para teclado físico
-- Historial de la última operación
-- Operaciones básicas: suma, resta, multiplicación, división y decimales
+- *Glass UI* with a blur effect
+- Light/dark mode with animated switching
+- Mobile-responsive
+- Physical keyboard support
+- History of the last operation
+- Basic operations: addition, subtraction, multiplication, division, and decimals
 
-## 🖥️ Vista previa
+## 🖥️ Preview
 
 ![image](https://github.com/user-attachments/assets/98a0b1e4-c040-48a6-8b2e-6b750d6fb343)
 
-## 📦 Cómo usar
+## 📦 How to use
 
-1. Abre el archivo `index.html` en tu navegador.
-2. Usa el mouse o el teclado para ingresar valores.
-3. Pulsa `=` o la tecla `Enter` para calcular.
-4. Usa `C` o `Backspace` para borrar un carácter, `AC` o `Escape` para reiniciar.
+1. Open the `index.html` file in your browser.
+2. Use the mouse or keyboard to enter values.
+3. Press `=` or the `Enter` key to calculate.
+4. Use `C` or `Backspace` to delete a character, `AC` or `Escape` to restart.
 
-## 🎨 Tema oscuro
+## 🎨 Dark Theme
 
-Pulsa el interruptor ☀️ / 🌙 en la esquina superior derecha para cambiar de tema.
+Tap the ☀️ / 🌙 toggle in the top right corner to change the theme.
 
-## 🔧 Tecnologías utilizadas
+## 🔧 Technologies Used
 
 - HTML5
-- CSS3 (incluyendo media queries y *backdrop-filter*)
-- JavaScript (sin frameworks)
+- CSS3 (including media queries and *backdrop-filter*)
+- JavaScript (no frameworks)
 
-## ✨ Captura adicional
+## ✨ Additional Screenshot
 
-Puedes agregar una captura de pantalla del modo oscuro o una animación .gif con el cambio de tema.
+You can add a dark mode screenshot or a .gif animation when changing the theme.
 
 ---
 
-### 💡 Autor
+### 💡 Author
 
 Ankus

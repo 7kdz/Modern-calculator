@@ -1,6 +1,6 @@
 # Modern calculator - Glass style
 
-A simple yet visually modern calculator with a *glassmorphism* interface and dark mode support, built with HTML, CSS, and JS.
+Modern Calculator - Glass Style is a basic calculator with a modern *glassmorphism* design. It allows you to perform addition, subtraction, multiplication, and division, along with decimal calculations. Featuring light and dark mode, keyboard support, and a responsive interface, this calculator is built using HTML, CSS, and JavaScript for a clean and intuitive experience. 🚀 Let me know if you want any adjustments! 😃
 
 ## 🌟 Features
 

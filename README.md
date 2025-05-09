@@ -13,7 +13,7 @@ Una calculadora simple pero visualmente moderna, con interfaz *glassmorphism* y 
 
 ## 🖥️ Vista previa
 
-C:\Users\toled\Documents\RoVek Coffee\RoVek Coffee Website\Modern-calculator\assets\Preview-image\calculator.webp
+![image](https://github.com/user-attachments/assets/98a0b1e4-c040-48a6-8b2e-6b750d6fb343)
 
 ## 📦 Cómo usar
 

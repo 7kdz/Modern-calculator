@@ -1,0 +1,192 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #c9d6ff, #e2e2e2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s ease;
+  overflow: hidden;
+}
+
+body.dark {
+  background: linear-gradient(to bottom right, #1e1e2f, #121212);
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 80px;
+  height: 34px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  overflow: hidden;
+}
+
+.theme-toggle span {
+  font-size: 1.2em;
+  z-index: 1;
+}
+
+.theme-toggle span.light {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.theme-toggle span.dark {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.toggle-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+body.dark .toggle-circle {
+  transform: translateX(45px);
+  background: #eee;
+}
+
+.calculator {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  width: 90%;
+  max-width: 340px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+body.dark .calculator {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+}
+
+.screen-container {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.history {
+  font-size: 0.9em;
+  color: #666;
+  text-align: right;
+  min-height: 18px;
+}
+
+body.dark .history {
+  color: #aaa;
+}
+
+.screen {
+  font-size: 2.3em;
+  text-align: right;
+  min-height: 36px;
+  word-wrap: break-word;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.key {
+  background: rgba(255,255,255,0.3);
+  border: none;
+  border-radius: 12px;
+  font-size: 1.4em;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #000;
+}
+
+.key:hover {
+  background: rgba(255,255,255,0.6);
+}
+
+body.dark .key {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+}
+
+body.dark .key:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+.operator {
+  background: #ffa726;
+  color: #fff;
+}
+
+.operator:hover {
+  background: #fb8c00;
+}
+
+.equal {
+  background: #4caf50;
+  color: #fff;
+  grid-column: span 2;
+}
+
+.equal:hover {
+  background: #43a047;
+}
+
+.clear {
+  background: #f44336;
+  color: #fff;
+}
+
+.clear:hover {
+  background: #e53935;
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+@media (max-width: 400px) {
+  .screen {
+    font-size: 1.8em;
+  }
+
+  .key {
+    font-size: 1.2em;
+    padding: 12px;
+  }
+
+  .theme-toggle {
+    width: 80px;
+    height: 35px;
+  }
+
+  .toggle-circle {
+    width: 20px;
+    height: 20px;
+  }
+}
